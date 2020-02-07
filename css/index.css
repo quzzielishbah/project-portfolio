@@ -1,0 +1,239 @@
+header {
+    background-color: mediumaquamarine;
+    opacity: 90%;
+    padding: 20px;
+    text-align: Center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-size: 0%;
+    text-align: Center;
+}
+
+h1 {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: "lucida calligraphy";
+    background: linear-gradient(to right, rgb(19, 53, 53), rgb(28, 28, 61), rgb(110, 52, 110), rgb(28, 28, 61), rgb(19, 53, 53));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: text 3s 1;
+    
+}
+
+h2 {
+    font-family: "Arial";
+    font-size: 40px;
+    font-weight: lighter;
+    background: linear-gradient(to right, rgb(58, 58, 243), rgb(180, 56, 180), rgb(54, 153, 153));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+h3 {
+    font-size: 55px;
+    background: linear-gradient(to right, rgb(58, 58, 243), rgb(180, 56, 180), rgb(54, 153, 153));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+h4 {
+    font-size: 45px;
+    background: linear-gradient(to right, rgb(58, 58, 243), rgb(180, 56, 180), rgb(54, 153, 153));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+p {
+    font-size: 25px;
+}
+
+footer {
+    background-color: mediumturquoise;
+    padding: 20px;
+    font-family: "Arial";
+    font-size: 21px;
+}
+
+#img-cloud {
+    float: right;
+    position: absolute;
+    height: 75px;
+    animation: moveInRight 2s ease-in-out;
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 5;
+        transform: translateX(20rem);
+        transform: translateX(-20rem);
+    }
+    100% {
+        opacity: 5;
+        transform: translateX(0);
+    }
+}
+
+#img-cloud1 {
+    float: center;
+    margin-right: 500px;
+    height: 75px;
+    animation: moveInLeft 2s ease-in-out;
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 5;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 5;
+        transform: translateX(20rem);
+        transform: translateX(-20rem);
+    }
+}
+
+#img-mountain {
+    float: center;
+}
+
+#img-ish {
+    width: 300px;
+    height: 300px;
+    margin: 1rem;
+}
+
+.circular--square {
+    border-radius:50%
+}
+
+#img-browser {
+    text-align: left;
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    margin-top: 160px;
+    margin-left: -380px;
+}
+
+#img-books {
+    text-align: left;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: -15px;
+    margin-left: -350px;
+}
+
+#img-pic {
+    text-align: left;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: -15px;
+    margin-left: -350px;
+}
+
+#img-vid {
+    text-align: left;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: -15px;
+    margin-left: -350px;
+}
+
+#img-music {
+    text-align: left;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: -15px;
+    margin-left: -350px;
+}
+
+#img-coff {
+    text-align: left;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: -15px;
+    margin-left: -350px;
+}
+
+#img-calig {
+    text-align: left;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: -15px;
+    margin-left: -350px;
+}
+
+button {
+    margin: 1rem;
+    width: 130px;
+    height: 40px;
+    font-size: 16px;
+    background-color: rgb(55, 172, 168);
+    font-weight: bolder;
+    border: black;
+    color: rgb(11, 11, 78);
+}
+
+#p1 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#p2 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#p3 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#par {
+    size: 500px;
+}
+
+table {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#p4 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#p5 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#img-fb {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+#img-ig {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+#img-email {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+}
